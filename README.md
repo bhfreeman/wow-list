@@ -25,4 +25,8 @@ Lists can be grouped together into folders.
         - Grouping of Lists
 - Back End
     - Authorization or user login
+    - models
+    - database setup
+    - routes
+
 
