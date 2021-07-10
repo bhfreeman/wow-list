@@ -5,10 +5,12 @@ import About from '../components/About'
 import Navbar  from '../components/Navbar'
 import Footer from '../components/Footer'
 
-function LandingPage() {
+function LandingPage({isActive, setIsActive}) {
     return (
         <>
-            <Navbar />
+            <Navbar
+            isActive={isActive}
+            setIsActive={setIsActive} />
             <About />
             <Footer />
         </>
